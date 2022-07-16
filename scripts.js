@@ -3,7 +3,7 @@ let positionTop = 50; // Initial Top Position
 let positionLeft = 0; // Initial Left Position
 let movingDirection = 1; // Conditional Variable to Move the Square According to it's Position. Default Value 1 Means it Will Start with the Given Condition.
 
-setInterval(moveSquare, 100); // Moving the Square in Every 1 Second
+setInterval(moveSquare, 1000); // Moving the Square in Every 1 Second
 
 // Moving Square Function Starts Here
 function moveSquare() {
